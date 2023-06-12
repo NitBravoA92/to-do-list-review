@@ -1,9 +1,9 @@
-import { 
-  retrieveLocalStorage, saveLocalStorage, taskObj, isEmpty 
+import {
+  retrieveLocalStorage, saveLocalStorage, taskObj, isEmpty,
 } from './Utils.js';
-import { 
-  insertTaskInDom, 
-  loadTasksEventHandlers 
+import {
+  insertTaskInDom,
+  loadTasksEventHandlers,
 } from './renderTask.js';
 
 export const createTask = (inputDesc) => {
